@@ -69,6 +69,14 @@ Get the service external IP:
 kubectl get svc myapp-service
 ```
 
+**If using Minikube:**
+
+```bash
+minikube service myapp-service --url
+```
+
+Use the printed URL as `<SERVICE_URL>` below.
+
 Test which version is live:
 
 ```bash
