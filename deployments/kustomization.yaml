@@ -8,5 +8,5 @@ images:
     newName:  ${DOCKERHUB_USERNAME}/blue-green-demo
     newTag: blue
   - name: mydockerhubusername/blue-green-demo
-    newName:  ${DOCKERHUB_USERNAME}/blue-green-demo
+    newName:  datapreacher/blue-green-demo
     newTag: green
